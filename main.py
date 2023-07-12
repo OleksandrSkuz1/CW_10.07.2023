@@ -36,7 +36,7 @@ if __name__ == '__main__':
 
 
     # знаходження найдорожчого товару
-    # with open("products.json", "r") as file:   
+    # with open("products.json", "r") as file:
     #    products = json.load(file)
     # max_price = 0
     # for product in products:
