@@ -1,22 +1,29 @@
 import json
 if __name__ == '__main__':
-    # with open("data.json", "r") as file:
+    # with open("data.json", "r") as file:      # зчитуємо файл json
     #     data = json.load(file)
     #     print(data['name'])
-    # x = {
+
+
+
+    # x = {                     # СТВОРЕННЯ СПИСКУ
     #     "name": "John",
     #     "age": 25
     # }
 
-    # y = json.dumps(x)
+    # y = json.dumps(x)     # даною командою перетвор. dict в json
     # print(y)
 
-    # with open("data.json","w") as file:
+    # with open("data.json","w") as file:       # зберігаємо в json
     #     json.dump(x, file)
+
+
+        # Додаємо учня в список
 
     # name = input("Введіть імя учня: ")
     # age = input("ведіть вік: ")
-    # frame_student = {
+    #
+    # frame_student = {                 # frame - якщо потрібно використати шаблон словника
     #     "name": name,
     #     "age": age
     # }
